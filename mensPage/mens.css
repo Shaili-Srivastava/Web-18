@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+.left{
+    color: white;
+}
+.left>div>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+}
+.right div{
+    margin: 0px 10px;
+    padding: 0px 20px;
+}
+.right>div>a{
+    text-decoration: none;
+    color: white;
+
+}
+#container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto);
+    gap: 10px;
+}
+#container>div{
+    padding: 10px;
+    box-sizing: border-box;
+}
+#container>div>p+p+p{
+    text-decoration: line-through;
+}
+#container>div>p+p{
+    display: inline-block;
+    margin: 10px 10px;
+}
+button{
+    display: block;
+    margin: 10px 0px 5px 0px;
+    padding: 5px 10px;
+}
+.LoginFirst
+{
+    text-align: center;
+    width: 100%;
+
+}
